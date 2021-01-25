@@ -1,0 +1,1 @@
+web: uvicorn hug:app --host=0.0.0.0 --port=${port:-8000}
